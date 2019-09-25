@@ -41,8 +41,10 @@ img {
     margin-bottom:3vh;
     padding-top:5vh;
     padding-bottom:5vh;
-    background:gray;
+    background:#f2f2f2;
     margin: 0;
+    text-align:center;
+    color:gray;
 }
 
 /* Content Section */
@@ -127,10 +129,8 @@ img {
         background-image: url("../img/header-img-mobile.png")
     }
     .content-section { 
-        margin-top:0;
-        margin-bottom:0;
-        margin-left:auto;
-        margin-right:auto;
+        margin:0;
+        width:100vw;
      }
     .content-item-section {
         display: grid;
